@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                       </div>
                       <div className={styles.formField}>
                           <label className={styles.label}>Wat is je bericht ?</label>
-                          <textarea className={styles.input} rows="4" cols="50"></textarea>
+                          <textarea className={styles.input}></textarea>
                           <input className={styles.button} type='submit' value='verstuur het nu'/>
                       </div>
                       <div className={styles.formField}>
